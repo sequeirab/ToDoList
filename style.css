@@ -1,0 +1,24 @@
+#page-wrapper h1 {
+	text-align: center;
+}
+
+#main-box {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	align-self: center;
+	background-color: #F0F0F0;
+	border-radius: 0.5em;
+	margin: 0px 13em;
+
+}
+
+#header-box {
+	display: flex;
+	background-color: #c2c2c2;
+	margin: 0.4em;
+	border: 1px;
+	border-radius: 0.3em;
+	align-items: space-around;
+}
