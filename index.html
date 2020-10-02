@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>To-Do List</title>
-	<script type="text/javascript" src="script.js"></script>
+	
 	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
@@ -10,14 +10,19 @@
 			<h1>To-Do List</h1>
 		<div id="main-box">
 			<div id="header-box">
-				<input type="input" placeholder="Insert what to do here">
-				<input onclick="insertFunction()" type="submit" value="Submit">
+				<input id="todo" type="input" placeholder="Insert what to do here">
+				<span onclick="writeList()" id="btn">Submit</span>
 
 			</div>
-			<div id="content-box"></div>
+			<div id="content-box">
+				<ul id="myUl">
+					<li>Wake up</li>
+					<li>Make the bed</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
-	
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
